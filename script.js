@@ -7,5 +7,5 @@ var altura = paulo.querySelector('.info-altura').textContent;
 
 var imc = peso / (altura * altura);
 
-paulo.querySelector('.info-imc').textContent = imc;
+paulo.querySelector('.info-imc').textContent =imc;
 
