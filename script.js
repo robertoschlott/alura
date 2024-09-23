@@ -1,11 +1,10 @@
 var titulo = document.querySelector('h1');
 titulo.textContent = "Aparecida Nutricionista";
 
-var paulo = document.querySelector('#peciente1');
-var peso = paulo.querySelector('.info-peso').textContent;
-var altura = paulo.querySelector('.info-altura').textContent;
-
-var imc = peso / (altura * altura);
-
-paulo.querySelector('.info-imc').textContent =imc;
-
+var pasiemte.querySelectorAll('.paciente');
+for (let contador * paciente.length; contador++){
+    var peso = paciente[contador].querySelector('.info-peso').textContent;
+    var altura = paciente[contador].querySelector('.info-altura').textContent;
+    var imc = peso / (altura * altura);
+    passiente[contador].queryselector('.info-imc').textContent = imc;
+}
