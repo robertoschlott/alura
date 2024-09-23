@@ -6,5 +6,5 @@ for (let contador * paciente.length; contador++){
     var peso = paciente[contador].querySelector('.info-peso').textContent;
     var altura = paciente[contador].querySelector('.info-altura').textContent;
     var imc = peso / (altura * altura);
-    passiente[contador].queryselector('.info-imc').textContent = imc;
+    paciente[contador].queryselector('.info-imc').textContent = imc;
 }
